@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    height: 125px;
+    width: 100%;
+    background-color: #2c3e50; /* Темно-синій фон */
+    color: white; /* Білий текст */
+    text-align: center;
+    line-height: 125px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.left, .right {
+    height: 500px;
+    background-color: #3498db; /* Блакитний фон */
+    color: white; /* Білий текст */
+    text-align: center;
+    line-height: 500px;
+}
+
+.left {
+    width: 300px;
+    background-color: #1abc9c; /* Бірюзовий фон для лівого блоку */
+}
+
+.center {
+    flex-grow: 1;
+    height: 500px;
+    background-color: #e74c3c; /* Червоний фон для центрального блоку */
+    color: white; /* Білий текст */
+    text-align: center;
+    line-height: 500px;
+}
+
+.right {
+    width: 200px;
+    background-color: #f39c12; /* Оранжевий фон для правого блоку */
+    color: white; /* Білий текст */
+}
